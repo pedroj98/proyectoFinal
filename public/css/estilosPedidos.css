@@ -1,0 +1,156 @@
+@import '../vendor/bootstrap/css/bootstrap.min.css';
+@import '../vendor/fonts/fontawesome/css/fontawesome-all.css';
+
+
+@font-face {
+    font-family: restaurant;
+    src: url("/fonts/Restaurant-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: gotic;
+    src: url("/fonts/Trade Gothic LT Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: hot;
+    src: url("/fonts/Restaurant-Hot.ttf") format("opentype");
+}
+
+
+
+body {
+
+    background-color: #ebeac4;
+}
+
+.contenedor {
+
+    background-color: #ebeac4;
+
+}
+
+h1 {
+
+    color: #c70101;
+    font-family: 'gotic';
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.tabla {
+
+    border: 16px solid #610d0d;
+    border-radius: 10px;
+}
+
+.ladoTabla {
+
+    border: 3px solid #c70101;
+    outline: 3px solid white;
+
+}
+
+.marron {
+
+    background-color: #610d0d;
+    overflow: hidden;
+    float: left;
+}
+
+img {
+
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.plato {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .05), 2px 2px 5px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+
+.plato p {
+
+    font-size: 12px;
+}
+
+.borrarPlato {
+
+    font-size: 13px;
+    color: black;
+}
+
+
+
+input {
+
+    font-size: 12px;
+
+}
+
+.seccion {
+
+    height: 600px;
+    overflow: auto;
+
+}
+
+.imagen {
+
+    border-left: 3px solid white;
+}
+
+.imagen img {
+
+    background-color: white;
+    height: auto;
+    border-radius: 50%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+h2 {
+
+    color: #c70101;
+    font-family: 'gotic';
+
+}
+
+strong {
+
+    color: #c70101;
+    font-size: 14px;
+}
+
+
+
+.btn {
+
+    background-color: #c70101;
+    color: white !important;
+}
+
+
+
+
+.seccion::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+.seccion::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+.seccion::-webkit-scrollbar-thumb {
+    background: #610d0d;
+    border-radius: 10px;
+}
+
+
+.seccion::-webkit-scrollbar-thumb:hover {
+    background: #610d0d;
+}

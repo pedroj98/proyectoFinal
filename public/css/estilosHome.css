@@ -1,0 +1,498 @@
+@import '../vendor/bootstrap/css/bootstrap.min.css';
+@import '../vendor/fonts/fontawesome/css/fontawesome-all.css';
+
+
+
+@font-face {
+    font-family: restaurant;
+    src: url("/fonts/Restaurant-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: gotic;
+    src: url("/fonts/Trade Gothic LT Bold.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: hot;
+    src: url("/fonts/Restaurant-Hot.ttf") format("opentype");
+}
+
+@keyframes cambiarFondo {
+    0% {
+        background-image: url('../media/foto1.jpg');
+    }
+
+    10% {
+        background-image: url('../media/foto2.jpg');
+    }
+
+    20% {
+        background-image: url('../media/foto3.jpg');
+    }
+
+    30% {
+        background-image: url('../media/foto4.jpg');
+    }
+
+    40% {
+        background-image: url('../media/foto5.jpg');
+    }
+
+    50% {
+        background-image: url('../media/foto6.jpg');
+    }
+
+    60% {
+        background-image: url('../media/foto7.jpg');
+    }
+
+    70% {
+        background-image: url('../media/foto8.jpg');
+    }
+
+    80% {
+        background-image: url('../media/foto9.jpg');
+    }
+
+    90% {
+        background-image: url('../media/foto10.jpg');
+    }
+
+    100% {
+        background-image: url('../media/foto1.jpg');
+    }
+}
+
+
+
+
+body {
+
+    background-color: #610D0D;
+
+
+}
+
+.contenedor {
+
+    background-color: rgb(235, 234, 196);
+    border-radius: 10px;
+    border: 5px solid rgb(43, 15, 15);
+    margin-bottom: 2%;
+}
+
+.cabecera div {
+
+    min-height: 80px;
+}
+
+.cuerpo {
+
+
+    border-radius: 5px;
+}
+
+.redes {
+    margin-top: 2%;
+}
+
+.enlaces ul {
+    margin-left: 20%;
+    text-align: center;
+}
+
+.enlaces {
+
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'gotic';
+
+
+}
+
+.enlaces a:hover {
+
+    text-decoration: underline;
+}
+
+.cabecera a {
+
+    text-decoration: none;
+    color: rgb(192, 54, 54);
+
+}
+
+
+
+
+.cabecera img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.redes ul li {
+
+    list-style-type: none;
+    float: left;
+    padding-right: 10%;
+    font-size: 18px;
+    margin-top: 25%;
+
+}
+
+.redes ul {
+
+    text-align: center;
+}
+
+.perfil img {
+
+
+    width: 40px;
+    height: 40px;
+    margin-top: -5px;
+    border-radius: 50%;
+    border: 2px solid rgb(192, 54, 54);
+
+}
+
+.perfil i {
+
+    color: rgb(192, 54, 54);
+    font-size: 14px;
+}
+
+
+
+#video {
+    width: 100%;
+    height: 100%;
+
+}
+
+.mensaje {
+
+    background-image: url("/media/papel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'restaurant';
+    font-size: 55px;
+    padding: 5%;
+
+
+}
+
+
+.pie {
+
+    background-color: rgb(235, 234, 196);
+    color: #610D0D;
+    font-family: 'gotic';
+    font-size: 12px;
+    border: 1px solid #610D0D;
+
+}
+
+.imagen {
+
+    width: 10px;
+}
+
+.registro h5 {
+
+    color: #610D0D;
+    font-family: 'gotic';
+}
+
+.registro img {
+
+    width: 100%;
+}
+
+.botonHome {
+    background-color: #610D0D;
+    color: white;
+}
+
+label {
+
+    color: #c70101;
+    font-family: 'gotic';
+}
+
+.crearCuenta {
+
+    font-size: 12px;
+    text-decoration: none;
+    color: #c70101;
+}
+
+.restauranteEnlace {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #610D0D;
+    opacity: 0.5;
+}
+
+.enlace:hover {
+
+    text-decoration: none;
+}
+
+.restauranteEnlace:hover {
+
+    opacity: 0.8;
+}
+
+.nombreRestaurante {
+
+    font-family: 'gotic';
+    color: white;
+    text-shadow: -2px 0 #610D0D, 0 2px #610D0D, 2px 0 #610D0D, 0 -2px #610D0D;
+}
+
+.direccion {
+
+    font-size: 'gotic';
+    color: white;
+    text-shadow: -2px 0 #610D0D, 0 2px #610D0D, 2px 0 #610D0D, 0 -2px #610D0D;
+}
+
+h1 {
+
+    font-family: 'restaurant';
+    font-size: 90px;
+    color: rgb(43, 15, 15);
+
+}
+
+
+
+.fotoRestaurante {
+
+    width: 100%;
+    height: 800px;
+    border-radius: 10px;
+    border: 5px solid rgb(43, 15, 15);
+    animation: cambiarFondo 100s linear infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: #610d0d;
+    font-family: 'hot';
+    font-size: 60px;
+    text-decoration: underline;
+
+}
+
+.restauranteBoton {
+
+    color: rgb(192, 54, 54);
+    background-color: #ebeac4;
+    border: 2px solid rgb(192, 54, 54);
+}
+
+.restauranteBoton:hover {
+
+    color: #ebeac4;
+    background-color: rgb(192, 54, 54);
+    border: 2px solid rgb(192, 54, 54);
+}
+
+
+.fotoPlato {
+
+    width: 800px;
+    height: 200px;
+
+}
+
+
+.menuPlato {
+
+    min-height: 460px;
+}
+
+div>.menuPlato {
+
+    border: 5px solid rgb(43, 15, 15);
+}
+
+.menuPlato img {
+
+    border-bottom: 5px solid rgb(43, 15, 15);
+    ;
+}
+
+
+p {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h4 {
+    font-family: 'gotic';
+}
+
+small {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'gotic';
+
+}
+
+span {
+    color: black;
+}
+
+#desayunos .menuPlato {
+
+    background-color: rgb(233, 215, 203);
+}
+
+#entrantes .menuPlato {
+
+    background-color: rgb(187, 209, 177);
+}
+
+#sopas .menuPlato {
+
+    background-color: rgb(231, 226, 156);
+}
+
+#platosPrincipales .menuPlato {
+
+    background-color: rgb(245, 130, 130);
+}
+
+#postres .menuPlato {
+
+    background-color: rgb(195, 243, 247);
+}
+
+.critica {
+
+    border: 2px solid #610D0D;
+
+}
+
+.submenu {
+
+    border-top: 10px solid #610D0D;
+}
+
+.submenu h3 {
+
+    color: #c70101;
+    font-family: 'gotic';
+}
+
+.submenu h4 {
+
+    color: #c70101;
+    font-family: 'gotic';
+}
+
+.submenu a {
+    color: #c70101;
+
+
+}
+
+.info1 {
+
+    border-right: 5px solid #610D0D;
+}
+
+.info2 {
+
+    border-right: 5px solid #610D0D;
+    border-left: 5px solid #610D0D;
+}
+
+.info3 {
+
+    border-left: 5px solid #610D0D;
+}
+
+
+
+
+#reservaInputs * {
+
+    width: 100%;
+    height: 100%;
+}
+
+#respuesta {
+
+    color: rgb(192, 54, 54);
+
+}
+
+
+/* carrousel menu */
+.menu .carousel-inner .active,
+.menu .carousel-inner .active+.carousel-item,
+.menu .carousel-inner .active+.carousel-item+.carousel-item {
+    display: block;
+}
+
+.menu .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+.menu .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+.menu .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+    transition: none;
+}
+
+.menu .carousel-inner .carousel-item-next,
+.menu .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.menu .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* left or forward direction */
+.menu .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+.menu .carousel-item-next.carousel-item-left+.carousel-item,
+.menu .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+.menu .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+}
+
+/* farthest right hidden item must be abso position for animations */
+.menu .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* right or prev direction */
+.menu .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+.menu .carousel-item-prev.carousel-item-right+.carousel-item,
+.menu .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+.menu .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+}
